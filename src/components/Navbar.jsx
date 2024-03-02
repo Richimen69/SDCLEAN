@@ -3,8 +3,8 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 
 const Navbar = () => {
     return (
-        <nav className="navbar navbar-expand-lg" style={{ backgroundColor: '#ffff' }}>
-            <div className="container-fluid">
+        <nav className="navbar navbar-expand-lg text-center" style={{ backgroundColor: '#ffff' }}>
+            <div className="container-fluid ">
                 <div class="container">
                     <a class="navbar-brand" href="#">
                         <img src="/src/assets/logoc.png" alt="Logo" width="100" height="100" class="d-inline-block align-text-top" />
@@ -15,10 +15,10 @@ const Navbar = () => {
                 </button>
                 <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div className="navbar-nav ">
-                        <a className="nav-link" href="#">INICIO</a>
-                        <a className="nav-link" href="#">SERVICIOS</a>
-                        <a className="nav-link" href="#">COTIZACIÓN</a>
-                        <a className="nav-link" href="#">CERTIFICADOS</a>
+                        <a className="nav-link" href="/">INICIO</a>
+                        <a className="nav-link" href="/servicios">SERVICIOS</a>
+                        <a className="nav-link" href="/cotizar">COTIZACIÓN</a>
+                        <a className="nav-link" href="/certificados">CERTIFICADOS</a>
                     </div>
                 </div>
             </div>

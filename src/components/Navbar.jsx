@@ -3,11 +3,11 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 
 const Navbar = () => {
     return (
-        <nav className="navbar navbar-expand-lg text-center" style={{ backgroundColor: '#ffff' }}>
+        <nav className="navbar fixed-top navbar-expand-lg text-center" style={{ backgroundColor: '#00FF0000 ' }}>
             <div className="container-fluid ">
-                <div class="container">
-                    <a class="navbar-brand" href="#">
-                        <img src="/src/assets/logoc.png" alt="Logo" width="100" height="100" class="d-inline-block align-text-top" />
+                <div className="container">
+                    <a className="navbar-brand" href="#">
+                        <img src="/src/assets/logoc.png" alt="Logo" width="100" height="100" className="d-inline-block align-text-top" />
                     </a>
                 </div>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">

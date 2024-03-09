@@ -15,8 +15,7 @@ function App() {
   const router = createBrowserRouter([
     {
       path: "/",
-      element: <Home />
-        
+      element: <Home />        
     },
     {
       path: "/cotizar",

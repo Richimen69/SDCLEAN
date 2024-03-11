@@ -105,28 +105,28 @@ const Home = () => {
                 <h1 className='fw-bold' style={{ color: '#55909B' }}>Utilizamos el mejor equipo</h1>
             </div>
             <div className='container py-5'>
-                <div className='row col-md-12 col-sm-6 text-center py-5 gy-4'>
-                    <div className='col'>
+                <div className='row text-center py-5 gy-4'>
+                    <div className='col col-12 col-md-3 col-sm-12'>
                         <div className='p-3 rounded-5' style={{ backgroundColor: '#F7FBFF' }}>
                             <img src="/src/assets/inicio/equipo1.png" alt="Máquina desinfección UV" className="img-fluid" />
                             <p className='fw-bold fs-5 my-3' style={{ color: '#006874' }}>Máquina desinfección UV</p>
                         </div>
                     </div>
-                    <div className='col'>
+                    <div className='col col-12 col-md-3 col-sm-12'>
                         <div className='p-3 rounded-5' style={{ backgroundColor: '#F7FBFF' }}>
                             <img src="/src/assets/inicio/equipo2.png" alt="Cepillos especiales" className="img-fluid" />
                             <p className='fw-bold fs-5 my-3' style={{ color: '#006874' }}>Cepillos especiales</p>
                         </div>
                     </div>
 
-                    <div className='col'>
+                    <div className='col col-12 col-md-3 col-sm-12'>
                         <div className='p-3 rounded-5' style={{ backgroundColor: '#F7FBFF' }}>
                             <img src="/src/assets/inicio/equipo3.png" alt="Máquina de lavado" className="img-fluid" />
                             <p className='fw-bold fs-5 my-3' style={{ color: '#006874' }}>Máquina de lavado</p>
                         </div>
                     </div>
 
-                    <div className='col'>
+                    <div className='col col-12 col-md-3 col-sm-12'>
                         <div className='p-3 rounded-5' style={{ backgroundColor: '#F7FBFF' }}>
                         <img src="/src/assets/inicio/equipo4.png" alt="Ventilador de secado" className="img-fluid" />
                         <p className='fw-bold fs-5 my-3' style={{ color: '#006874' }}>Ventilador de secado</p>

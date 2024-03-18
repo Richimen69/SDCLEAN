@@ -12,7 +12,7 @@ const Cotizar = () => {
                 <Img
                     imgA="cotizacion"
                     imgS="/src/assets/cotizar/cotizar.png"
-                    txt="Cotización"
+                    txt="COTIZACIÓN"
                 />
             </div>
             <div className='container' style={{ color: '#F0F5FF' }}>

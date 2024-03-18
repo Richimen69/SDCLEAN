@@ -1,10 +1,26 @@
 import React, { useState } from 'react'
+import { useMediaQuery } from 'react-responsive';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Servicios = () => {
+    const isSmallScreen = useMediaQuery({ query: '(max-width: 767px)' });
+    const imgStyle = {
+        height: isSmallScreen ? '250px' : '500px', // Cambia la altura aquí para pantallas pequeñas
+    }
     return (
         <div style={{ backgroundColor: "#eef4f5" }}>
-            <div className="container">
+            <div className="position-relative text-center">
+                <img
+                    src="/src/assets/servicios/servicios.png"
+                    className="d-block w-100"
+                    style={imgStyle}
+                    alt="Cotización"
+                />
+                <div className="position-absolute top-50 start-50 translate-middle" style={{ color: '#FFFFFF' }}>
+                    <h1 className="fw-bold">SERVICIOS</h1>
+                </div>
+            </div>
+            <div className="container mt-5">
                 <div className="row">
                     <div className="col">
                         <img src="/src/assets/servicios/pulido.png" />

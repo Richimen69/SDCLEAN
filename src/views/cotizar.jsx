@@ -1,26 +1,19 @@
 import React from 'react'
-import { useMediaQuery } from 'react-responsive';
+
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Grid from '../components/cotizar/Grid'
+import Img from '../components/Img'
 
 const Cotizar = () => {
-    const isSmallScreen = useMediaQuery({ query: '(max-width: 767px)' });
 
-    const imgStyle = {
-        height: isSmallScreen ? '250px' : '500px', // Cambia la altura aquí para pantallas pequeñas
-    }
     return (
         <div>
-            <div className="position-relative text-center">
-                <img
-                    src="/src/assets/cotizar/cotizar.png"
-                    className="d-block w-100"
-                    style={imgStyle}
-                    alt="Cotización"
+            <div>
+                <Img
+                    imgA="cotizacion"
+                    imgS="/src/assets/cotizar/cotizar.png"
+                    txt="COTIZACIÓN"
                 />
-                <div className="position-absolute top-50 start-50 translate-middle" style={{ color: '#FFFFFF' }}>
-                    <h1 className="fw-bold">COTIZACIÓN</h1>
-                </div>
             </div>
             <div className='container' style={{ color: '#F0F5FF' }}>
                 <div className='my-5  text-center'>
